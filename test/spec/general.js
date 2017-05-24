@@ -3,7 +3,7 @@
 let co = require('co')
 let lab = exports.lab = require('lab').script()
 let expect = require('code').expect
-let bcrypt = require('bcrypt')
+let bcrypt = require('bcryptjs')
 
 let db = require('../db')
 let User = db.bookshelf.model('User')
